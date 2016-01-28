@@ -10,4 +10,7 @@ import UIKit
 
 class CalcOperation: NSObject {
 
+    func calculateWithArray(anArr:[String]) -> Double {
+        return 0.0
+    }
 }

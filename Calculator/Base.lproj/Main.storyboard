@@ -17,14 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUZ-M5-WbA">
-                                <rect key="frame" x="57" y="79" width="300" height="65"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZB-NB-ABQ">
                                 <rect key="frame" x="57" y="171" width="69" height="54"/>
                                 <animations/>
@@ -33,6 +25,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0148887434554974" green="0.0148887434554974" blue="0.0148887434554974" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cn2-Gi-sFe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3L-ls-dei">
                                 <rect key="frame" x="134" y="171" width="69" height="54"/>
@@ -42,6 +37,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z80-gC-NSw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keH-ki-E0M">
                                 <rect key="frame" x="211" y="171" width="69" height="54"/>
@@ -51,6 +49,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyR-pc-C8H"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOw-AK-k2e">
                                 <rect key="frame" x="288" y="171" width="69" height="54"/>
@@ -60,6 +61,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uft-Pu-fsd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEm-da-Ws2">
                                 <rect key="frame" x="57" y="233" width="69" height="54"/>
@@ -69,6 +73,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZw-6k-tmy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IR-cP-zfy">
                                 <rect key="frame" x="134" y="233" width="69" height="54"/>
@@ -78,6 +85,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ud-8E-Whh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCA-De-3lJ">
                                 <rect key="frame" x="211" y="233" width="69" height="54"/>
@@ -87,6 +97,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4R-bo-dS8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bph-Af-8Dy">
                                 <rect key="frame" x="288" y="233" width="69" height="54"/>
@@ -96,6 +109,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mww-C2-kFq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsY-KN-l8Q">
                                 <rect key="frame" x="57" y="295" width="69" height="54"/>
@@ -105,6 +121,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5iZ-CF-Tbl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stf-eU-vQo">
                                 <rect key="frame" x="134" y="295" width="69" height="54"/>
@@ -114,6 +133,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wWN-DM-B0T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Je0-xQ-1aD">
                                 <rect key="frame" x="211" y="295" width="69" height="54"/>
@@ -123,6 +145,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BFe-ID-y4d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgQ-Jd-oLb">
                                 <rect key="frame" x="288" y="295" width="69" height="54"/>
@@ -132,6 +157,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9cJ-eV-fW1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zM-vQ-jpb">
                                 <rect key="frame" x="57" y="357" width="69" height="54"/>
@@ -141,6 +169,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M4u-nb-pEh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8z-AV-Acr">
                                 <rect key="frame" x="134" y="357" width="69" height="54"/>
@@ -150,15 +181,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCs-7s-gtn">
-                                <rect key="frame" x="211" y="357" width="69" height="54"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.01236717306" green="0.01335954717" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="=">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hvr-xy-zeK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkf-ii-QoV">
                                 <rect key="frame" x="288" y="357" width="69" height="54"/>
@@ -168,12 +193,38 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WLY-Uk-bc7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUZ-M5-WbA">
+                                <rect key="frame" x="57" y="84" width="300" height="65"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCs-7s-gtn">
+                                <rect key="frame" x="211" y="357" width="69" height="54"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.01236717306" green="0.01335954717" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.014888743459999999" green="0.014888743459999999" blue="0.014888743459999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonCalc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x5g-ir-Aw1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="tUZ-M5-WbA" id="SLs-Ap-mIo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
